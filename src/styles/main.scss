@@ -71,11 +71,16 @@ p {
 }
 
 @media (orientation: portrait) {
+
   p {
     max-width: 95vw;
   }
 
   .reponses {
     padding: 0px 0.5em;
+  }
+
+  button {
+    font-size: 1.1em;
   }
 }
