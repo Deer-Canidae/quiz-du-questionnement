@@ -1,0 +1,20 @@
+[
+  {
+    "question" : "Ever had gay thoughts ?",
+    "reponses" : [
+      "Yes",
+      "Definetely",
+      "Absolutely",
+      "I'm ace"
+    ]   
+  },
+  {
+    "question" : "When did you know you were gay ?",
+    "reponses" : [
+      "Now",
+      "Yesterday",
+      "I always knew",
+      "I'm aro"
+    ]
+  }
+]

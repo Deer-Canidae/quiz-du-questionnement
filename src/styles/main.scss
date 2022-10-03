@@ -1,0 +1,81 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--theme-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: background 300ms ease-in-out;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: slategray;
+  color: white;
+
+  h1 {
+    padding: 0.3em;
+    text-align: center;
+  }
+}
+
+.play {
+  width: fit-content;
+  padding: 0.3em;
+  border-radius: 0.2em;
+  border: none;
+  background-color: var(--theme-color);
+  color: black;
+  margin-bottom: 1em;
+  transition: background-color 300ms ease-in-out;
+}
+
+.reponses {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0px 2em;
+  margin-bottom: 1em;
+
+  button {
+    box-sizing: border-box;
+    display: block;
+    width: 98%;
+    padding: 0.3em;
+    height: 2em;
+    border-radius: 0.2em;
+    border: none;
+    background-color: var(--theme-color);
+    color: black;
+    margin: 0.3em;
+    transition: background-color 300ms ease-in-out;
+  }
+}
+
+p {
+  margin: 1em;
+  text-align: justify;
+  max-width: 60vw;
+}
+
+@media (orientation: portrait) {
+  p {
+    max-width: 95vw;
+  }
+
+  .reponses {
+    padding: 0px 0.5em;
+  }
+}
