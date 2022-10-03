@@ -78,9 +78,19 @@ p {
 
   .reponses {
     padding: 0px 0.5em;
+
+    button {
+      height: 3em;
+      font-size: 1.2em;
+    }
   }
 
   button {
     font-size: 1.1em;
+    height: 3em;
+  }
+
+  .play {
+    padding: 0px, 10%;
   }
 }
