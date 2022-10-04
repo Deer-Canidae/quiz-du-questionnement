@@ -18,7 +18,7 @@
     ]
   },
   {
-    "question": "As-tu déjà resenti de l'atirance envers une personne sans vouloir nécéssairement avoir des relations sexuelles pour celle-ci?",
+    "question": "As-tu déjà resenti de l'attirance envers une personne sans vouloir nécéssairement avoir des relations sexuelles pour celle-ci?",
     "reponses": [
       "Parfois",
       "Oui",
@@ -27,7 +27,7 @@
     ]
   },
   {
-    "question": "T'es tu déjà demandé·e si tu te sentirais mieux dans un/des genre·s diférent·s de celui que l'on t'a assigné·e?",
+    "question": "T'es-tu déjà demandé·e si un/des genre·s diférent·s de celui que l'on t'a assigné·e te fais sentir bien/mieux?",
     "reponses": [
       "Parfois",
       "Oui",
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "question": "Participes-tu ou as-tu participé·e à un questionnaire de ce type avant?",
+    "question": "Participes-tu ou as-tu participé à un questionnaire de ce type dans le passé'?",
     "reponses": [
       "C'est mon premier",
       "À chaque jour",
