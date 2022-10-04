@@ -10,7 +10,6 @@ let installEvent: Event;
 
 export default function App() {
   const [quizzState, setQuizzState] = React.useState(0); // 0 = main menu, 1 Game running
-  const [installable, setInstallable] = React.useState(false);
 
   if (quizzState === 0)
     return (
