@@ -1,20 +1,38 @@
 [
   {
-    "question" : "Ever had gay thoughts ?",
-    "reponses" : [
-      "Yes",
-      "Definetely",
-      "Absolutely",
-      "I'm ace"
-    ]   
+    "question": "Ressens-tu un malaise quand tu es confronté·e au mot \"Madame\" ou \"Monsieur\"?",
+    "reponses": [
+      "Parfois",
+      "Oui",
+      "Non",
+      "Je ne sais pas"
+    ]
   },
   {
-    "question" : "When did you know you were gay ?",
-    "reponses" : [
-      "Now",
-      "Yesterday",
-      "I always knew",
-      "I'm aro"
+    "question": "As-tu deja été attiré·e par plusieurs personnes simultanément?",
+    "reponses": [
+      "Parfois",
+      "Oui",
+      "Non",
+      "Je ne sais pas"
+    ]
+  },
+  {
+    "question": "As-tu déjà resenti de l'atirance envers une personne sans vouloir nécéssairement avoir des relations sexuelles pour celle-ci?",
+    "reponses": [
+      "Parfois",
+      "Oui",
+      "Non",
+      "Je ne sais pas"
+    ]
+  },
+  {
+    "question": "T'es tu déjà demandé·e si tu te sentirais mieux dans un/des genre·s diférent·s de celui que l'on t'a assigné?",
+    "reponses":[
+      "Parfois",
+      "Oui",
+      "Non",
+      "Je ne sais pas"
     ]
   }
 ]
