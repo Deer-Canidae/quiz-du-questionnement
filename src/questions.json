@@ -27,12 +27,20 @@
     ]
   },
   {
-    "question": "T'es tu déjà demandé·e si tu te sentirais mieux dans un/des genre·s diférent·s de celui que l'on t'a assigné?",
-    "reponses":[
+    "question": "T'es tu déjà demandé·e si tu te sentirais mieux dans un/des genre·s diférent·s de celui que l'on t'a assigné·e?",
+    "reponses": [
       "Parfois",
       "Oui",
       "Non",
       "Je ne sais pas"
+    ]
+  },
+  {
+    "question": "Participes-tu ou as-tu participé·e à un questionnaire de ce type avant?",
+    "reponses": [
+      "C'est mon premier",
+      "À chaque jour",
+      "Ça m'est arrivé"
     ]
   }
 ]
