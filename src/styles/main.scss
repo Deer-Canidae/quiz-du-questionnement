@@ -32,6 +32,7 @@ body {
 }
 
 .play {
+  font-size: 1.1em;
   width: fit-content;
   padding: 1em;
   border-radius: 0.2em;
@@ -62,6 +63,10 @@ body {
     color: black;
     margin: 0.3em;
     transition: background-color 300ms ease-in-out;
+  }
+
+  button:active {
+    background-color: #dddddd;
   }
 }
 
