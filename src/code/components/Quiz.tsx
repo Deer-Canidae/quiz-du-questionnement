@@ -1,14 +1,19 @@
 import * as React from "react";
-import changeColor from "./changeColor";
+import changeColor from "../functions/changeColor";
 import Question from "./Question";
-import type quizz from "./quizzType";
+import type question from "../types/questionType";
 
 interface QuizzProps {
-  questions: quizz[];
+  questions: question[];
   reset: {() : void};
 }
 
-export default function Quizz({ questions, reset }: QuizzProps) {
+/**
+ * Component orchestrate the quiz logic
+ * @param quizzProp contains a list of question and a reset handle
+ * @returns JSX for the quiz
+ */
+export default function Quiz({ questions, reset }: QuizzProps) {
   const [nbQuestions] = React.useState(questions.length);
   React.useEffect(changeColor);
 

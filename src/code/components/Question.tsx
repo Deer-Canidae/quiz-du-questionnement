@@ -1,11 +1,16 @@
 import * as React from "react";
-import type quizz from "./quizzType";
+import type question from "../types/questionType";
 
 interface QuestionProps {
-  question: quizz;
+  question: question;
   next: {(): void}
 }
 
+/**
+ * Component in charge of displaying the Quiz's current question
+ * @param questionProps contains the question data and a handle to get to the next question
+ * @returns 
+ */
 export default function Question({ question, next}: QuestionProps) {
   
   return <>

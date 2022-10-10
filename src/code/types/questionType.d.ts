@@ -1,4 +1,4 @@
-export default interface quizz {
+export default interface question {
   question: string,
   reponses: string[]
 }
