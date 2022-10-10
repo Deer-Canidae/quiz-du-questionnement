@@ -16,6 +16,11 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+h1 {
+  padding: 0.3em;
+  text-align: center;
+}
+
 .container {
   border-radius: 1em;
   display: flex;
@@ -23,24 +28,20 @@ body {
   align-items: center;
   background-color: slategray;
   color: white;
-
-  h1 {
-    padding: 0.3em;
-    text-align: center;
-  }
 }
 
-.play {
+button {
   font-family: inherit;
-  font-size: 1.1em;
-  width: fit-content;
-  padding: 1em;
+  font-size: 1.2em;
+  box-sizing: border-box;
+  display: block;
+  padding: 0.3em;
+  height: 3em;
   border-radius: 0.2em;
   border: none;
   background-color: var(--theme-color);
   color: black;
-  margin-bottom: 1em;
-  transition: background-color 300ms ease-in-out;
+  margin: 0.3em;
 }
 
 .reponses {
@@ -51,23 +52,7 @@ body {
   margin-bottom: 1em;
 
   button {
-    font-family: inherit;
-    font-size: 1.2em;
-    box-sizing: border-box;
-    display: block;
     width: 98%;
-    padding: 0.3em;
-    height: 3em;
-    border-radius: 0.2em;
-    border: none;
-    background-color: var(--theme-color);
-    color: black;
-    margin: 0.3em;
-    transition: background-color 300ms ease-in-out;
-  }
-
-  button:active {
-    background-color: #dddddd;
   }
 }
 

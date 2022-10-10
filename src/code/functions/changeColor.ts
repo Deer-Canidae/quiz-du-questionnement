@@ -1,3 +1,8 @@
+/**
+ * changes the interface color at random
+ * 
+ * *does not check if randomly choosen color is same as former color*
+ */
 export default function changeColor() {
   const colors = [
     "red",

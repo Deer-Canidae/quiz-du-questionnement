@@ -1,8 +1,8 @@
 import * as React from "react";
-import type quizz from "./quizzType";
+import type question from "../types/questionType";
 
 interface QuestionProps {
-  question: quizz;
+  question: question;
   next: {(): void}
 }
 
