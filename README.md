@@ -6,4 +6,4 @@ The quiz only answers "only you can know" because... well you shouldn't trust a 
 
 ## Make it your own !
 
-You only need to modify `src/questions.json` to customize the quiz's questions! easy as pie ~~respect the json format thogh or it'll crash~~
+You only need to modify `src/questions.json` to customize the quiz's questions! easy as pie ~~respect the json format though or it'll crash~~
