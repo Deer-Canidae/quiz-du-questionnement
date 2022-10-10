@@ -1,13 +1,18 @@
 import * as React from "react";
 import changeColor from "../functions/changeColor";
 import type question from "../types/questionType";
-import rawQuestions from "../../questions.json";
+import questionsRaw from "../../questions.json";
 import Quiz from "./Quiz";
 import arrayShuffle from "../functions/arrayShuffle";
 
-const questions: question[] = rawQuestions;
+// Typing import
+const questions: question[] = questionsRaw;
 let installEvent: Event;
 
+/**
+ * Component to manage global app state
+ * @returns JSX for the app
+ */
 export default function App() {
   const [quizzState, setQuizzState] = React.useState(0); // 0 = main menu, 1 Game running
 
