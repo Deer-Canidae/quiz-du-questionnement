@@ -1,4 +1,4 @@
-# quiz-du-questionnement
+# ✨ Quiz du Questionnement ✨
 
 A quiz app for a college union project aimed to help people question their sexual orientation and/or gender identity
 
