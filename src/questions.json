@@ -42,5 +42,14 @@
       "À chaque jour",
       "Ça m'est arrivé"
     ]
+  },
+  {
+    "question" : "Rescent-tu ou as-tu rescenti de l'attraction sexuelle et/ou romantique pour quelqu'un ?",
+    "reponses" : [
+      "Parfois",
+      "Oui",
+      "Non",
+      "Je ne sais pas"
+    ]
   }
 ]
