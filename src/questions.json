@@ -44,9 +44,25 @@
     ]
   },
   {
-    "question" : "Rescent-tu ou as-tu rescenti de l'attraction sexuelle et/ou romantique pour quelqu'un ?",
-    "reponses" : [
+    "question": "Rescent-tu ou as-tu rescenti de l'attraction sexuelle et/ou romantique pour quelqu'un ?",
+    "reponses": [
       "Parfois",
+      "Oui",
+      "Non",
+      "Je ne sais pas"
+    ]
+  },
+  {
+    "question": "Te sens-tu à l'aise avec la manière dont tu es perçu·e par les gens qui t'entourent ?",
+    "reponses": [
+      "Oui",
+      "Non",
+      "Je ne sais pas"
+    ]
+  },
+  {
+    "question": "Es-tu à l'aise dans ton corps?",
+    "reponses": [
       "Oui",
       "Non",
       "Je ne sais pas"
